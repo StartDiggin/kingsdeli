@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
+import '../css/styles.css';
+import Menu from './menu'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
@@ -9,10 +10,10 @@ class App extends Component {
           <h1>King's Kid</h1>
         </header>
         <nav className="app-nav">
-          <h4>Catering Available</h4>
-          <h4>973-696-9496</h4>
-
+          <h2>Catering Available</h2>
+          <h1>973-696-9496</h1>
         </nav>
+        <Menu />
       </div>
     );
   }

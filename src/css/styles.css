@@ -1,0 +1,20 @@
+.App {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr auto;
+}
+.app-header {
+  background: #172726;
+  color: #b8b033;
+  display: grid;
+  justify-items: center;
+}
+.app-nav {
+  background: #172726;
+  color: #b8b033;
+  display: grid;
+  justify-items: center;
+}
+.app-nav h2 {
+  color: #9d2936;
+}
