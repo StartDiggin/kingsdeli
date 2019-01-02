@@ -1,0 +1,332 @@
+{
+  "Hot Sandwiches": [
+    {
+      "id": 1,
+      "name": "Hot Roast Beef Gravy & Cheese",
+      "price": 650
+    },
+    {
+      "id": 2,
+      "name": "Cheese Steak W/ Fries",
+      "price": 599
+    },
+    {
+      "id": 3,
+      "name": "Meatball Parmesan",
+      "price": 599
+    },
+    {
+      "id": 4,
+      "name": "BBQ Rib W/ Cheddar & BBQ Sauce",
+      "price": 599
+    },
+    {
+      "id": 5,
+      "name": "Reuben",
+      "price": 599
+    },
+    {
+      "id": 6,
+      "name": "Eggplant Parm",
+      "price": 599
+    },
+    {
+      "id": 7,
+      "name": "Sausage, Peppers & Onion Parm",
+      "price": 650
+    },
+    {
+      "id": 8,
+      "name": "Hot Turkey W/ Gravy & Cheese",
+      "price": 599
+    },
+    {
+      "id": 9,
+      "name": "Chicken Cutlet, Cheddar, Bacon & Ranch",
+      "price": 650
+    },
+    {
+      "id": 10,
+      "name": "Grilled Chicken, Roasted Peppers, Fresh Mozzarella & Balsamic Vinegar",
+      "price": 650
+    },
+    {
+      "id": 11,
+      "name": "Chicken Parmesan",
+      "price": 599
+    },
+    {
+      "id": 12,
+      "name": "Chicken Cutlet, Let & Tom",
+      "price": 599
+    },
+    {
+      "id": 13,
+      "name": "Buffalo Chicken W/ Lettuce, Tomato, Ranch, Pepper Jack & Buffalo Sauce",
+      "price": 650
+    },
+    {
+      "id": 14,
+      "name": "Tuna Swiss Melt",
+      "price": 550
+    },
+    {
+      "id": 15,
+      "name": "Fish Flounder, W/ Let, Tom & Tartar Sauce",
+      "price": 599
+    }
+  ],
+  "Cold Sandwiches": [
+    {
+      "id": 16,
+      "name": "King's Kid's Special",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 17,
+      "name": "Ham, Salami & Provolone",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 18,
+      "name": "Italia",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 19,
+      "name": "Ham & Swiss",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 20,
+      "name": "Spiced Ham, Salami & Provolone",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 21,
+      "name": "Roast Beef",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 22,
+      "name": "Ham, Turkey & Swiss",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 23,
+      "name": "Turkey",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 24,
+      "name": "Chicken Salad",
+      "price-roll": 459,
+      "price": 550
+    },
+    {
+      "id": 25,
+      "name": "Tuna Salad",
+      "price-roll": 459,
+      "price": 550
+    }
+  ],
+  "club sandwiches": [
+    {
+      "id": 26,
+      "name": "Turkey",
+      "price": 650
+    },
+    {
+      "id": 27,
+      "name": "Sloppy Joes",
+      "price": 650
+    },
+    {
+      "id": 28,
+      "name": "B.L.T W/ Mayo on Toast",
+      "price": 469
+    },
+    {
+      "id": 29,
+      "name": "Grilled Cheese W/ Bacon & Tomato on Bread",
+      "price": 469
+    }
+  ],
+  "Wraps & Salads": [
+    {
+      "id": 30,
+      "name": "Roast Beef, Fresh Mozz, Roasted Peppers and Horesradish Sauce",
+      "price": 650
+    },
+    {
+      "id": 31,
+      "name": "Turkey B.L.T. W/ Mayo",
+      "price": 650
+    },
+    {
+      "id": 32,
+      "name": "Grilled Chicked BLT and Mayo",
+      "price": 650
+    },
+    {
+      "id": 33,
+      "name": "Chicken Cutlet B.L.T. W/ Mayo",
+      "price": 650
+    },
+    {
+      "id": 34,
+      "name": "Grilled Chicken Caesar",
+      "price": 599
+    },
+    {
+      "id": 35,
+      "name": "Eggplant Fresh Mozzarella, Roasted Peppers, & Balsamic Vinegar",
+      "price": 650
+    },
+    {
+      "id": 36,
+      "name": "Tossed Salad",
+      "price": 449
+    },
+    {
+      "id": 37,
+      "name": "Chef Salad",
+      "price": 599
+    },
+    {
+      "id": 38,
+      "name": "Grilled Chicken Salad",
+      "price": 599
+    }
+  ],
+  "Hamburgers": [
+    {
+      "id": 39,
+      "name": "Cheeseburger",
+      "price": 399
+    },
+    {
+      "id": 40,
+      "name": "Bacon Cheeseburger",
+      "price": 499
+    },
+    {
+      "id": 41,
+      "name": "California Cheesburger W/ Lettuce, Tomato & Onion",
+      "price": 449
+    }
+  ],
+  "Sides": [
+    {
+      "id": 42,
+      "name": "Onion Rings",
+      "price-sm": 299,
+      "price-lg": 399
+    },
+    {
+      "id": 43,
+      "name": "French Fries",
+      "price-sm": 189,
+      "price-lg": 349
+    },
+    {
+      "id": 44,
+      "name": "Soup",
+      "price-sm": 250,
+      "price-lg": 350
+    },
+    {
+      "id": 45,
+      "name": "Chili",
+      "price-sm": 299,
+      "price-lg": 399
+    },
+    {
+      "id": 46,
+      "name": "M0zz Sticks",
+      "price-sm": 449,
+      "price-lg": 599
+    },
+    {
+      "id": 47,
+      "name": "Chicken Nuggets",
+      "price-sm": 299,
+      "price-lg": 399
+    },
+    {
+      "id": 48,
+      "name": "Chicken Fingers",
+      "price-sm": 449,
+      "price-lg": 599
+    },
+    {
+      "id": 49,
+      "name": "Wing Dings",
+      "price-sm": 449,
+      "price-lg": 599
+    }
+  ],
+  "Breakfast Specials": [
+    {
+      "id": 50,
+      "name": "Egg & Cheese",
+      "price-sm": 209,
+      "price-lg": 0
+    },
+    {
+      "id": 51,
+      "name": "3 Eggs Whites W/ Cheese",
+      "price-sm": 3.09
+    },
+    {
+      "id": 52,
+      "name": "Taylor Ham, Bacon or Sausage",
+      "price-sm": 299,
+      "price-lg": 329
+    },
+    {
+      "id": 53,
+      "name": "Turkey, 2 Egg Whites Wrap",
+      "price-sm": 469,
+      "price-lg": 0
+    },
+    {
+      "id": 54,
+      "name": "Ham or Bacon, 3 Egg Omelette W/ Onions, Peppers, Cheese & White Toast",
+      "price-sm": 469,
+      "price-lg": 0
+    },
+    {
+      "id": 55,
+      "name": "Hash Browns",
+      "price-sm": 100,
+      "price-lg": 0
+    },
+    {
+      "id": 56,
+      "name": "Extra Egg",
+      "price-sm": 50,
+      "price-lg": 0
+    },
+    {
+      "id": 57,
+      "name": "Extra Cheese",
+      "price-sm": 50,
+      "price-lg": 0
+    },
+    {
+      "id": 58,
+      "name": "Extra Meat",
+      "price-sm": 100,
+      "price-lg": 0
+    }
+  ]
+}
