@@ -1,82 +1,97 @@
 {
-  "Hot Sandwiches": [
+  "Hot_Sandwiches": [
     {
       "id": 1,
+      "key": 1,
       "name": "Hot Roast Beef Gravy & Cheese",
       "price": 650
     },
     {
       "id": 2,
+      "key": 2,
       "name": "Cheese Steak W/ Fries",
       "price": 599
     },
     {
       "id": 3,
+      "key": 3,
       "name": "Meatball Parmesan",
       "price": 599
     },
     {
       "id": 4,
+      "key": 4,
       "name": "BBQ Rib W/ Cheddar & BBQ Sauce",
       "price": 599
     },
     {
       "id": 5,
+      "key": 5,
       "name": "Reuben",
       "price": 599
     },
     {
       "id": 6,
+      "key": 6,
       "name": "Eggplant Parm",
       "price": 599
     },
     {
       "id": 7,
+      "key": 7,
       "name": "Sausage, Peppers & Onion Parm",
       "price": 650
     },
     {
       "id": 8,
+      "key": 8,
       "name": "Hot Turkey W/ Gravy & Cheese",
       "price": 599
     },
     {
       "id": 9,
+      "key": 9,
       "name": "Chicken Cutlet, Cheddar, Bacon & Ranch",
       "price": 650
     },
     {
       "id": 10,
+      "key": 10,
       "name": "Grilled Chicken, Roasted Peppers, Fresh Mozzarella & Balsamic Vinegar",
       "price": 650
     },
     {
       "id": 11,
+      "key": 11,
       "name": "Chicken Parmesan",
       "price": 599
     },
     {
       "id": 12,
+      "key": 12,
       "name": "Chicken Cutlet, Let & Tom",
       "price": 599
     },
     {
       "id": 13,
+      "key": 13,
       "name": "Buffalo Chicken W/ Lettuce, Tomato, Ranch, Pepper Jack & Buffalo Sauce",
       "price": 650
     },
     {
       "id": 14,
+      "key": 14,
       "name": "Tuna Swiss Melt",
       "price": 550
     },
     {
       "id": 15,
+      "key": 15,
       "name": "Fish Flounder, W/ Let, Tom & Tartar Sauce",
       "price": 599
     }
   ],
-  "Cold Sandwiches": [
+  "Cold_Sandwiches": [
     {
       "id": 16,
       "name": "King's Kid's Special",
@@ -138,7 +153,7 @@
       "price": 550
     }
   ],
-  "Club sandwiches": [
+  "Club_Sandwiches": [
     {
       "id": 26,
       "name": "Turkey",
@@ -160,7 +175,7 @@
       "price": 469
     }
   ],
-  "Wraps & Salads": [
+  "Wraps_Salads": [
     {
       "id": 30,
       "name": "Roast Beef, Fresh Mozz, Roasted Peppers and Horesradish Sauce",
@@ -228,105 +243,98 @@
     {
       "id": 42,
       "name": "Onion Rings",
-      "price-sm": 299,
-      "price-lg": 399
+      "priceSm": 299,
+      "priceLg": 399
     },
     {
       "id": 43,
       "name": "French Fries",
-      "price-sm": 189,
-      "price-lg": 349
+      "priceSm": 189,
+      "priceLg": 349
     },
     {
       "id": 44,
       "name": "Soup",
-      "price-sm": 250,
-      "price-lg": 350
+      "priceSm": 250,
+      "priceLg": 350
     },
     {
       "id": 45,
       "name": "Chili",
-      "price-sm": 299,
-      "price-lg": 399
+      "priceSm": 299,
+      "priceLg": 399
     },
     {
       "id": 46,
       "name": "M0zz Sticks",
-      "price-sm": 449,
-      "price-lg": 599
+      "priceSm": 449,
+      "priceLg": 599
     },
     {
       "id": 47,
       "name": "Chicken Nuggets",
-      "price-sm": 299,
-      "price-lg": 399
+      "priceSm": 299,
+      "priceLg": 399
     },
     {
       "id": 48,
       "name": "Chicken Fingers",
-      "price-sm": 449,
-      "price-lg": 599
+      "priceSm": 449,
+      "priceLg": 599
     },
     {
       "id": 49,
       "name": "Wing Dings",
-      "price-sm": 449,
-      "price-lg": 599
+      "priceSm": 449,
+      "priceLg": 599
     }
   ],
-  "Breakfast Specials": [
+  "Breakfast_Specials": [
     {
       "id": 50,
       "name": "Egg & Cheese",
-      "price-sm": 209,
-      "price-lg": 0
+      "priceSm": 209
     },
     {
       "id": 51,
       "name": "3 Eggs Whites W/ Cheese",
-      "price-sm": 3.09
+      "priceSm": 3.09
     },
     {
       "id": 52,
       "name": "Taylor Ham, Bacon or Sausage",
-      "price-sm": 299,
-      "price-lg": 329
+      "priceSm": "$2.99",
+      "priceLg": "w/ Egg or Cheese $3.29"
     },
     {
       "id": 53,
       "name": "Turkey, 2 Egg Whites Wrap",
-      "price-sm": 469,
-      "price-lg": 0
+      "priceSm": 469
     },
     {
       "id": 54,
       "name": "Ham or Bacon, 3 Egg Omelette W/ Onions, Peppers, Cheese & White Toast",
-      "price-sm": 469,
-      "price-lg": 0
+      "priceSm": 469
     },
     {
       "id": 55,
       "name": "Hash Browns",
-      "price-sm": 100,
-      "price-lg": 0
+      "priceSm": 100
     },
     {
       "id": 56,
       "name": "Extra Egg",
-      "price-sm": 50,
-      "price-lg": 0
+      "priceSm": 50
     },
     {
       "id": 57,
       "name": "Extra Cheese",
-      "price-sm": 50,
-      "price-lg": 0
+      "priceSm": 50
     },
     {
       "id": 58,
       "name": "Extra Meat",
-      "price-sm": 100,
-      "price-lg": 0
+      "priceSm": 100
     }
   ]
 }
