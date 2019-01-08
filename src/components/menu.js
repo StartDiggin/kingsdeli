@@ -1,58 +1,103 @@
 import React from 'react';
-import text from './menu.json';
-import Item from './Item';
+import HotSandwiches from './HotSandwiches';
+import Sides from './Sides';
+import ColdSandwiches from './ColdSandwiches';
+import Hamburgers from './Hamburgers';
+import ClubSandwiches from './ClubSandwiches';
+import WrapsSalads from './WrapsSalads';
+import Footer from './Footer';
+
 
 class Menu extends React.Component {
-    state = {
-        menu: {},
-        arr3: [],
-        Hot_Sandwiches: [],
-        Cold_Sandwiches: [],
-        Club_Sandwiches: [],
-        Wraps_Salads: [],
-        Hamburgers: [],
-        Sides: [],
-        Breakfast_Specials: [],
-    }
 
-    componentDidMount = async() => {
-        const  fullMenu = {...text};
-        // console.log(fullMenu, 'adsfasdfa')
-        await this.setState({menu: fullMenu })
-        const arr5 = [];
-        Object.keys(fullMenu).map(function (i) {
-            return arr5.push(fullMenu[i]);
-          });
-        //   console.log(arr5)
-          this.setState({arr3:arr5})
-        this.getMenuItems();
-    }
-
-    getMenuItems = () => {
-        let m1 = {...this.state.arr3}
-        this.setState({
-            Hot_Sandwiches: m1[0], 
-            Cold_Sandwiches: m1[1],
-            Club_Sandwiches: m1[2],
-            Wraps_Salads: m1[3],
-            Hamburgers: m1[4],
-            Sides: m1[5],
-            Breakfast_Specials: m1[6]})
-    }
-    
-   
-    
-    
     render() {
         return (
-            <div className="menu" type="text/babel">
-                <h1>Breakfast</h1>
-                <div>
+            <div className="menu">
+                <div className="menuItems">
+                    <h1>Breakfast</h1>
+                    <hr/>
                     <ul>
-                        {this.state.Breakfast_Specials.map((item) => {
-                            return <Item item={item} />
-                        })}
+                        <li>
+                            <h2>Egg & Cheese</h2>
+                            <h3 className="price">$2.09</h3>
+                        </li>
+                        <li>
+                            <h2>3 Eggs Whites w/ Cheese</h2>
+                            <h3 className="price">$3.09</h3>
+                        </li>
+                        <li>
+                            <h2>Taylor Ham, Bacon or Sausage</h2>
+                            <h3 className="price">$2.99</h3>
+                        </li>
+                        <li className="extras"> 
+                            <h2>w/ Egg or Cheese</h2>
+                            <h3>$3.29</h3>
+                        </li>
+                        <li>
+                            <h2>Turkey, 2 Egg Whites Wrap</h2>
+                            <h3 className="price">$4.69</h3>
+                        </li>
+                        <li>
+                            <h2>3 Egg Omelette,  (Ham or Bacon) </h2><br/>
+                            <h2 className="options">w/ Onions, Peppers, Cheese & White Toast</h2>
+                            <h3 className="price">$4.69</h3>
+                        </li>
                     </ul>
+                </div>
+                <div className="menuItems">
+                    <h1>Extras</h1>
+                    <hr/>
+                    <ul>
+                        <li>
+                            <h2>Hash Browns</h2>
+                            <h3 className="price">$1.00</h3>
+                        </li>
+                        <li>
+                            <h2>Extra Egg</h2>
+                            <h3 className="price">$0.50</h3>
+                        </li>
+                        <li>
+                            <h2>Extra Cheese</h2>
+                            <h3 className="price">$0.50</h3>
+                        </li>
+                        <li>
+                            <h2>Extra Meat</h2>
+                            <h3 className="price">$1.00</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div className="menuItems">
+                    <h1>Hot Sandwiches</h1>
+                    <hr/>
+                    <HotSandwiches />
+                </div>
+                <div className="menuItems">
+                    <h1>Sides</h1>
+                    <hr/>
+                    <Sides />
+                </div>
+                <div className="coldSandwiches">
+                    <h1>Cold Sandwiches</h1>
+                    <hr/>
+                    <ColdSandwiches />
+                </div>
+                <div className="clubSandwiches">
+                    <h1>Club Sandwiches</h1>
+                    <hr/>
+                    <ClubSandwiches />
+                </div>
+                <div className="wrapsSalads">
+                    <h1>Wraps & Salads</h1>
+                    <hr/>
+                    <WrapsSalads />
+                </div>
+                <div className="hamburgers">
+                    <h1>Hamburgers</h1>
+                    <hr/>
+                    <Hamburgers />
+                </div>
+                <div className="footer">
+                    <Footer />
                 </div>
             </div>
         )

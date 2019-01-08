@@ -4,17 +4,144 @@
   grid-template-rows: 1fr auto;
 }
 .app-header {
-  background: #172726;
+  background: #26403e;
   color: #b8b033;
   display: grid;
   justify-items: center;
 }
 .app-nav {
-  background: #172726;
+  background: #26403e;
   color: #b8b033;
   display: grid;
   justify-items: center;
 }
 .app-nav h2 {
   color: #9d2936;
+}
+.menu {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #dfeceb;
+}
+.menuItems ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.menuItems li {
+  transition: all 0.5s;
+}
+.menuItems h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #39605e;
+  color: #fff;
+  border-radius: 20px;
+}
+.menuItems h2 {
+  display: inline-block;
+  margin: 10px 0px 0px 25px;
+}
+.menuItems h3 {
+  display: inline-block;
+  margin: 10px 10px 0px 25px;
+  float: right;
+}
+.id {
+  color: #f00;
+}
+li:hover {
+  background-color: #26403e;
+  color: #fff;
+}
+.extras {
+  margin-left: 75px;
+}
+.options {
+  margin-left: 100px !important;
+}
+.sides {
+  border-bottom: 5px solid #39605e;
+}
+.sides ul {
+  list-style-type: none;
+}
+.sides li {
+  height: 100px;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 760px) {
+  .sides li {
+    height: 200px;
+    background-color: #093;
+  }
+}
+.sides h2 {
+  display: block !important;
+}
+.coldSandwiches {
+  margin-top: -250px;
+}
+.coldSandwiches h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #39605e;
+  color: #fff;
+  border-radius: 20px;
+}
+@media screen and (max-width: 760px) {
+  .coldSandwiches {
+    margin-top: 5px;
+  }
+}
+.clubSandwiches {
+  grid-column: 1/2;
+}
+.clubSandwiches h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #39605e;
+  color: #fff;
+  border-radius: 20px;
+}
+.wrapsSalads {
+  grid-column: 1/2;
+}
+.wrapsSalads h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #39605e;
+  color: #fff;
+  border-radius: 20px;
+}
+.salads {
+  margin-left: 100px !important;
+}
+.hamburgers {
+  grid-column: 1/2;
+}
+.hamburgers h1 {
+  display: flex;
+  justify-content: center;
+  background-color: #39605e;
+  color: #fff;
+  border-radius: 20px;
+}
+.footer {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  background: #26403e;
+  color: #fff;
+  border-bottom: 30px groove #39605e;
+  border-top: 20px groove #39605e;
+  padding-bottom: 10px;
+}
+.footer h2 {
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0;
 }

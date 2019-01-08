@@ -1,6 +1,8 @@
 headerText = #b8b033
 caterColor = #9d2936
-headerBG = #172726
+headerBG = #26403e
+headers = #39605e
+
 
 
 .App {
@@ -23,3 +25,111 @@ headerBG = #172726
 
 .app-nav h2 
     color caterColor
+
+.menu 
+    grid-column: 1/4
+    display grid 
+    grid-template-columns: 3fr 1fr
+    background-color: #dfeceb
+
+.menuItems
+    ul  
+        list-style-type: none
+        padding-left: 20px
+    li  
+        transition all .5s
+    h1 
+        display: flex 
+        justify-content: center
+        background-color: headers 
+        color white
+        border-radius: 20px
+    h2  
+        display inline-block
+        margin: 10px 0px 0px 25px;
+    h3 
+        display inline-block
+        margin: 10px 10px 0px 25px;
+        float: right
+     
+.id 
+    color red
+  
+li:hover 
+    background-color headerBG
+    color white
+
+.extras 
+    margin-left: 75px
+
+.options 
+    margin-left: 100px !important
+
+
+.sides 
+    border-bottom: 5px solid headers
+    ul 
+        list-style-type none 
+    li 
+        height 100px
+        transition all .5s
+        @media screen and (max-width 760px)
+            height 200px
+            background-color: #009933
+    h2 
+        display: block !important
+
+.coldSandwiches
+    margin-top: -250px
+    h1 
+        display: flex 
+        justify-content: center
+        background-color: headers 
+        color white
+        border-radius: 20px
+    @media screen and (max-width 760px) 
+        margin-top: 5px;
+
+
+.clubSandwiches
+    grid-column: 1/2
+    h1 
+        display: flex 
+        justify-content: center
+        background-color: headers 
+        color white
+        border-radius: 20px
+.wrapsSalads
+    grid-column: 1/2 
+    h1 
+        display flex 
+        justify-content: center
+        background-color: headers 
+        color white
+        border-radius: 20px
+.salads 
+    margin-left: 100px !important
+
+.hamburgers 
+    grid-column: 1/2
+    h1 
+        display: flex 
+        justify-content: center
+        background-color: headers 
+        color white
+        border-radius: 20px
+.footer 
+    grid-column: 1/3
+    display grid
+    grid-template-columns: 2fr 2fr
+    background headerBG 
+    color white
+    border-bottom: 30px groove headers
+    border-top: 20px groove headers
+    padding-bottom: 10px
+    h2 
+        display: inline-block
+        margin: 0px 10px 0px 0px;
+    ul  
+        list-style-type: none
+        margin: 0
