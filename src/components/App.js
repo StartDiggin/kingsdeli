@@ -7,7 +7,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="app-header">
-          <h1>King's Kid Deli</h1>
+        <h1>King's Kid Deli</h1>
         </header>
         <nav className="app-nav">
           <h2>Catering Available</h2>

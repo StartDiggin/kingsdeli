@@ -5,8 +5,9 @@ class Footer extends React.Component {
         return (
             <>
             <div>
-                <h1>Contact Info</h1>
+                
                 <ul>
+                    <li><h1>Contact Info</h1></li>
                     <li><h2>Address:</h2></li>
                     <li>235 Newark Pompton Tpke</li>
                     <li>Pequannock, NJ 07440</li>
@@ -15,8 +16,9 @@ class Footer extends React.Component {
                 </ul>
             </div>
             <div>
-                <h1>Hours</h1>
+                
                 <ul>
+                    <li><h1>Hours</h1></li>
                     <li><h2>Mon</h2> <span>5:00am-11:00pm</span></li>
                     <li><h2>Tue</h2> <span>5:00am-11:00pm</span></li>
                     <li><h2>Wed</h2> <span>5:00am-11:00pm</span></li>
