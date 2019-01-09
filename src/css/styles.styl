@@ -1,8 +1,17 @@
+@font-face {
+  font-family: "haymakerregular";
+  src: url("./fonts/haymaker-webfont.eot");
+  src: url("./fonts/haymaker-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/haymaker-webfont.woff") format("woff"), url("./fonts/haymaker-webfont.ttf") format("truetype"), url("./fonts/haymaker-webfont.svg#haymakerregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 headerText = #b8b033
 caterColor = #9d2936
 headerBG = #26403e
 headers = #39605e
-
+headerFont = 'haymakerregular', sans-serif;
+    
 
 
 .App {
@@ -16,10 +25,37 @@ headers = #39605e
     background rgba(57, 96, 94, .8)
     color headerText
     display grid 
-    justify-items center
-    padding-left: 410px
-    h1 
-        font-size: 35px !important
+    justify-items end
+    // padding-left: 410px
+    @media screen and (max-width 760px) 
+        justify-items: start
+        padding-left: 10px;
+.logo
+    font-size: 50px !important
+    margin-top: 50px
+    font-family: headerFont
+    @media screen and (max-width 760)
+        font-size: 25px 
+        margin-top: 10px 
+
+.catering 
+    font-size: 35px !important
+    margin-top: 50px
+    font-family: headerFont
+    color caterColor
+    @media screen and (max-width 760px) 
+        font-size: 25px !important
+        margin-top: 25px
+        font-family: headerFont
+        
+
+.phone 
+    font-size: 35px;
+    @media screen and (max-width 760px) 
+        font-size: 25px !important
+        margin-top: 25px
+        font-family: headerFont
+    
 
 .app-nav
     background rgba(57, 96, 94, .8)
@@ -28,8 +64,6 @@ headers = #39605e
     justify-items end
     padding-right: 85px;
 
-.app-nav h2 
-    color caterColor
 
 .menu 
     grid-column: 1/4

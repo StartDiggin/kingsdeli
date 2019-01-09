@@ -7,11 +7,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="app-header">
-        <h1>King's Kid Deli</h1>
+        <h1 className="logo">King's Kid Deli</h1>
         </header>
         <nav className="app-nav">
-          <h2>Catering Available</h2>
-          <h1>(973) 696-9496</h1>
+          <h1 className="catering">Catering Available</h1>
+          <h1 className="phone">(973) 696-9496</h1>
         </nav>
         <Menu />
       </div>

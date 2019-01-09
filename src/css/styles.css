@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "haymakerregular";
+  src: url("./fonts/haymaker-webfont.eot");
+  src: url("./fonts/haymaker-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/haymaker-webfont.woff") format("woff"), url("./fonts/haymaker-webfont.ttf") format("truetype"), url("./fonts/haymaker-webfont.svg#haymakerregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .App {
   display: grid;
   grid-template-columns: 2fr 2fr;
@@ -8,11 +15,47 @@
   background: rgba(57,96,94,0.8);
   color: #b8b033;
   display: grid;
-  justify-items: center;
-  padding-left: 410px;
+  justify-items: end;
 }
-.app-header h1 {
+@media screen and (max-width: 760px) {
+  .app-header {
+    justify-items: start;
+    padding-left: 10px;
+  }
+}
+.logo {
+  font-size: 50px !important;
+  margin-top: 50px;
+  font-family: 'haymakerregular', sans-serif;
+}
+@media screen and (max-width: 760) {
+  .logo {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+.catering {
   font-size: 35px !important;
+  margin-top: 50px;
+  font-family: 'haymakerregular', sans-serif;
+  color: #9d2936;
+}
+@media screen and (max-width: 760px) {
+  .catering {
+    font-size: 25px !important;
+    margin-top: 25px;
+    font-family: 'haymakerregular', sans-serif;
+  }
+}
+.phone {
+  font-size: 35px;
+}
+@media screen and (max-width: 760px) {
+  .phone {
+    font-size: 25px !important;
+    margin-top: 25px;
+    font-family: 'haymakerregular', sans-serif;
+  }
 }
 .app-nav {
   background: rgba(57,96,94,0.8);
@@ -20,9 +63,6 @@
   display: grid;
   justify-items: end;
   padding-right: 85px;
-}
-.app-nav h2 {
-  color: #9d2936;
 }
 .menu {
   grid-column: 1/4;

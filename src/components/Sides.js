@@ -28,7 +28,7 @@ class Sides extends React.Component {
                         <h3 className="priceSm">small $2.99</h3>
                     </li>
                     <li>
-                        <h2>Mozz Sticks</h2>
+                        <h2>Mozzarella Sticks</h2>
                         <h3 className="price"><strong className="id">9 pc.</strong> $5.99</h3>
                         <h3 className="priceSm"><strong className="id">6 pc.</strong> $4.49</h3>
                     </li>
